@@ -161,12 +161,13 @@ def run_training():
                 pretrained_state_dict = checkpoint
             model_state_dict = res18.state_dict()
             # pdb.set_trace()
-            
+            # print(pretrained_state_dict.keys(),model_state_dict.keys())
             for key in pretrained_state_dict:
                 if  ((key=='fc.weight')|(key=='fc.bias')):
                     pass
-                else:    
-                    model_state_dict[key] = pretrained_state_dict[key]
+                else:
+                    # print("module."+key)
+                    model_state_dict["module."+key] = pretrained_state_dict[key]
             res18.load_state_dict(model_state_dict, strict = False)
         else:
             print("No backbone is found.")
