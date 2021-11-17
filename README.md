@@ -24,6 +24,10 @@ The original code only support resnet18. But according to paper, vgg16 and IR sh
 
 More about IResnet18. The pretrained model comes from the training for [insightface/arcface](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch)
 
+### Generate feature
+
+We may use the feature directly to other project. Here is the generater.
+
 ## TODO
 
 [ ] VGG16
