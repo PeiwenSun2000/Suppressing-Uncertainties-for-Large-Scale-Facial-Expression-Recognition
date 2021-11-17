@@ -30,11 +30,11 @@ We may use the feature directly to other project. Here is the generater.
 
 ## TODO
 
-[ ] VGG16
+- [ ] VGG16
 
-[ ] Verify the performance of SCN+RAN
+- [ ] Verify the performance of SCN+RAN
 
-[ ]Support of pretrain model on MSCeleb
+- [ ] Support of pretrain model on MSCeleb
 
 ## Train
 
