@@ -60,6 +60,6 @@ We may use the feature directly to other project. Here is the generater.
 Note: you should design your own args all by yourself！！
 ```
       python train.py --margin_1=0.07
-​```
+```
 
-  --margin_1 denotes the margin in Rank Regularization which is set to 0.15 with batch size 1024 in the paper. Here --margin_1=0.07 with smaller batch size 64[default] in train.py can get similar results.
+--margin_1 denotes the margin in Rank Regularization which is set to 0.15 with batch size 1024 in the paper. Here --margin_1=0.07 with smaller batch size 64[default] in train.py can get similar results.
